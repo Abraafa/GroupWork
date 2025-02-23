@@ -1,10 +1,17 @@
 ﻿namespace Groupwork
 {
+    using Groupwork.UI;
+    using Spectre.Console;
+
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+
+            var menu = new MainMenu();
+            menu.Show();
+
         }
     }
+
 }
